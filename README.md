@@ -1,6 +1,11 @@
 # AU Website Data
 This repo will try to crawl all data from all websites with a suffix of .au and be used to train the LLM for next token prediction.
 
+# Further Work To Do
+The current code is working but with issues below:
+
+Many websites can not be accessed directly using this code. Copyright issue to be addressed, further code modification required.
+
 ## Data Format
 Plase process your data by transforming it into dataframe and save it as csv. We cut each text paragraph into pieces and store in each cell.
 
